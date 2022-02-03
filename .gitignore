@@ -156,11 +156,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# big data files
-/zippedData
-/unzipped-data
-/dsc-phase-1-project-v2-3
-/dsc-phase-1-project-v2-4
+# big data folders
+zippedData/
+unzipped-data/
+dsc-phase-1-project-v2-3/
+dsc-phase-1-project-v2-4/
 
 # copied files
 dsc-phase1-project-template.ipynb
