@@ -19,7 +19,7 @@ the data, organizes it, calculates profit, calculates averages, creates graphs t
 - `MicrosoftFilms.pdf`: A slideshow as a PDF with a graphical summery of my findings.
 This slideshow is a synopsis of the findings, intended to be used with a live presentation
 
-- `zippedData4` folder: Folder with data used in the Jupyter notebook above
+- `unzipped-data` folder: Folder with data used in the Jupyter notebook above
 
 ## Jupyter notebook explanation
 
