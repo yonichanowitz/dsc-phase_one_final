@@ -20,3 +20,13 @@ the data, organizes it, calculates profit, calculates averages, creates graphs t
 This slideshow is a synopsis of the findings, intended to be used with a live presentation
 
 - `zippedData4` folder: Folder with data used in the Jupyter notebook above
+
+## Jupyter notebook explanation
+
+in this notebook i have
+- loads appropriate libraries
+- creates pandas dataframes from the data
+- cleans the data
+- organizes it using joins, and droping uneccessary columns
+- calculates profit and averages 
+- creates graphs with seaborne to demonstrate findings
