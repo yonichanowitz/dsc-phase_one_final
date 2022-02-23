@@ -40,11 +40,19 @@ any columns which did not help relate to that data was droppped. films that were
 
 ### criteria for a profitable film
 
-i defined a profitable film as a film where the `domestic gross` sales at the box office, subtracting the `film production cost` was more than $1. i also ran the same calculations on international films, but the resulting data set was much smaller, with more outliers 
+i defined a profitable film as a film where the `domestic gross` :
+* sales at the box office, subtracting the `film production cost` 
+* profit was more than $1. 
+
+i also ran the same calculations on international films, but the resulting data set was much smaller, with more outliers 
 
 ### filtering method
 
-the database was then split into three tables, one each for Directors, Writers, and Actors. each table was then sorted by profitability then grouped by `nconst` which is a identifier *IMDB* gives to each person on a film, and added a column with an aggregation of the average of the profit of all films each person was in. Afterwards i filtered each database by people who's average film profit was greater than $3m to get the "best of the best"
+* the database was then split into three tables, one each for Directors, Writers, and Actors. 
+* each table was then sorted by profitability 
+* then grouped by `nconst` (an identifier *IMDB* gives to each person on a film)
+* added a column with an aggregation of the average of the profit of all films each person was in.
+* filtered each table by people who's average film profit was greater than $3m to get the "best of the best"
 
 this method was applied again for genre
 
